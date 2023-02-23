@@ -3,12 +3,20 @@
                 font-size: 18px;
                 font-family: "Times New Roman", Times, serif;
             }
+            
             .alignleft {
                 float: left;
             }
+            
             .alignright {
                 float: right;
             }
+            
             .contact {
+                text-align-last: center;
+            }
+            
+            .topnav {
+                float: none;
                 text-align-last: center;
             }

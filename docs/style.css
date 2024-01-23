@@ -100,3 +100,34 @@ img {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.license-container {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      }
+      
+/* styles.css */
+
+.two-column-list {
+    list-style-type: none;
+    column-count: 2;
+    column-gap: 400px; /* Adjust the gap between columns as needed */
+}
+
+.two-column-list li {
+    margin-bottom: 10px; /* Add some spacing between list items */
+    position: relative;
+}
+
+.two-column-list li::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    color: #000000; /* You can change the color if needed */
+    font-weight: bold;
+    margin-right: 5px;
+    position: absolute;
+    left: -15px; /* Adjust the position as needed */
+}

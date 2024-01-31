@@ -199,17 +199,17 @@ body {
 }
 
 .image-container figure {
-    width: 48%; /* Adjusted width to ensure two figures fit side by side */
-    box-sizing: border-box; /* Include padding and border in the width */
+    width: 48%; 
+    box-sizing: border-box; 
     float: left;
-    margin: 1%; /* Added a small margin to separate figures */
+    margin: 1%; 
     
 }
 
 .image-container img {
     width: 100%;
     height: auto;
-    display: block; /* Remove extra space beneath the image */
+    display: block; 
     border:solid black;
 }
 

@@ -5,8 +5,13 @@ body {
     color: black;
 }
 
+.tab {
+    tab-size: 5;
+}
+
 .alignleft {
     float: left;
+    margin-left: 25px;
 }
 
 .alignmedialeft {
@@ -16,6 +21,7 @@ body {
 
 .alignright {
     float: right;
+    margin-right: 25px;
 }
 
 .alignmediaright {
